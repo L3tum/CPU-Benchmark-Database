@@ -12,4 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: L3tum/CPU-Benchmark-Database-Aggregator@v0.0.1
+    - uses: L3tum/CPU-Benchmark-Database-Aggregator@0.0.1
