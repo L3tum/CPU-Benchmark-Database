@@ -12,13 +12,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: L3tum/CPU-Benchmark-Database-Aggregator@master
-    - name: push back
+    - name: Checkout actual head
       run: |
           git config --global user.name 'L3tum'
           git config --global user.email 'l3tum@users.noreply.github.com'
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
           git checkout "${GITHUB_REF:11}"
+    - uses: L3tum/CPU-Benchmark-Database-Aggregator@master
+    - name: push back
+      run: |
           git add -A
           git commit -am "Automated aggregation"
           git push
