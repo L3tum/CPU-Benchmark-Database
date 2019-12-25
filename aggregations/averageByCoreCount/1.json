@@ -1,1 +1,1 @@
-{"Name":"1","Category":"averageByCoreCount","Entries":[{"Value":"AMD Ryzen 9 3900X 12-Core Processor             === 47216","SaveFile":null},{"Value":"Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz   === 37578","SaveFile":null}]}
+{"Name":"1","Category":"averageByCoreCount","Entries":[{"Value":"AMD Ryzen 9 3900X 12-Core Processor             === AuthenticAMD === 47216","SaveFile":null},{"Value":"Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz   === GenuineIntel === 37578","SaveFile":null}]}
